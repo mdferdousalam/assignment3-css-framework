@@ -10,8 +10,19 @@
 
 .carousel-caption {
     position: absolute;
-    height: 50%;
+    height: 60%;
     line-height: 4rem;
     color: #ffffff;
 
+}
+
+@media screen and (min-width: 992px) {
+    .register-button {
+        display: flex !important;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-content: flex-end;
+        flex-wrap: wrap;
+    }
 }
