@@ -16,6 +16,8 @@
 
 }
 
+/* registration button position fixing */
+
 @media screen and (min-width: 992px) {
     .register-button {
         display: flex !important;
