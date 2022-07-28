@@ -14,7 +14,7 @@
   <body>
     <header>
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">Arrowah Technology</a>
           <button
@@ -271,7 +271,71 @@
       </section>
 
       <!-- Ready to Join -->
-      <section></section>
+      <section
+        style="height: 300px"
+        class="container mx-auto text-center row d-md-flex rounded align-content-center bg-primary"
+      >
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <h1>Ready to join?</h1>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <button
+            type="button"
+            class="btn btn-white bg-white text-center text-primary fw-bold"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            Register Now
+          </button>
+
+          <!-- modal -->
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-bs-dismiss="modal">
+                    &times;
+                  </button>
+                  <h4 class="modal-title">Do You Have an Account?</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Please Login</p>
+                  <p>
+                    <a
+                      href="#"
+                      data-bs-toggle="tooltip"
+                      title="if you have an account"
+                      >Login</a
+                    >
+                    Or
+                    <a
+                      href="#"
+                      data-bs-toggle="tooltip"
+                      title="if you dont have an account"
+                      >Sign Up</a
+                    >
+                    for accessing our valuable course.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-default"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- frequently asked Questions -->
       <section></section>
@@ -282,6 +346,9 @@
       </section>
     </main>
     <footer></footer>
+
+    <!-- javascript funconalities for bootstrap -->
+
     <script src="bootstrap/bootstrap.min.js"></script>
   </body>
 </html>
